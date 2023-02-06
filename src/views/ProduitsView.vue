@@ -46,7 +46,7 @@
 import {BACKEND, doAjaxRequest} from "../api";
 import {onMounted, reactive} from "vue";
 
-// Pour réinitialiser le formuaire
+// Pour réinitialiser le formulaire
 const produitVide = {
     reference: "",
     nom: ""

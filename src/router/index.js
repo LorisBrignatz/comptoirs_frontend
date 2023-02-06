@@ -18,6 +18,11 @@ const router = createRouter({
       component: CategorieView
     },
     {
+      path: '/produits',
+      name: 'produits',
+      component: ProduitsView
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
