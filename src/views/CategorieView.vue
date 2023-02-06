@@ -25,7 +25,7 @@
                 <tr v-if="!data.listeCategories">
                     <td colspan="4">Veuillez patienter, chargement des catégories...</td>
                 </tr>
-                <!-- Si le tableau des catégories n'est pas vide -->
+                <!-- Si le tableau des catégorie n'est pas vide -->
                 <tr v-for="categorie in data.listeCategories" :key="categorie.code">
                     <td>{{ categorie.code }}</td>
                     <td>{{ categorie.libelle }}</td>
